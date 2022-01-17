@@ -1,0 +1,109 @@
+
+.button {
+  position: absolute;
+  border: 3px solid black;
+  background-color: white;
+  color: black;
+  padding: 8px 28px;
+  font-size: 38px;
+  cursor: pointer;
+  left: 38%;
+  top: 60%;
+  width: 400px;
+  height: 100px;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+}
+
+.playbutton{
+  border-radius: 5px;
+  border-color: #99abc7;
+  color: #99abc7;
+}
+@keyframes enlarge{
+  from{
+    width: 400px;
+    height: 100px;
+  }
+  to{
+    width: 410px;
+    height: 110px;
+  }
+}
+@keyframes statenlarge{
+  from{
+    font-size:17px;
+  }
+  to{
+    font-size:20px;
+  }
+
+}
+
+.playbutton:hover {
+  
+  color: #254082;
+  border-color: #254082;
+  animation-duration: 1s;
+  animation-name: enlarge;
+  animation-fill-mode: forwards;
+
+}
+.playbutton:active {
+  background: #faf6f3;
+
+
+}
+
+.stats {
+  position: absolute;
+  left: 50%;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #254082;
+
+
+}
+
+.stat{
+  position: relative;
+  right: 50%
+
+}
+
+
+
+
+
+
+.in{
+  right: 400px;
+  top:78px;
+}
+
+.long{
+  left: 320px;
+  bottom:78px;
+}
+
+
+.explanation{
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #254082;
+  font-weight: bold;
+  font-size: 18px;
+
+}
+#maintitle{
+  position: relative;
+  left: 130px;
+  top: -80px;
+  width: calc((100% - 100px) / 3);
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #254082;
+}
+#brainlogo{
+  position: relative;
+  top: 10px;
+  left: -20px;
+  width: 180px;
+  height: 100px;
+}

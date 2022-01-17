@@ -1,0 +1,43 @@
+#maintitle{
+  position: relative;
+  left: 130px;
+  top: -80px;
+  width: calc((100% - 100px) / 3);
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #254082;
+}
+#brainlogo{
+  position: relative;
+  top: 10px;
+  left: -20px;
+  width: 180px;
+  height: 100px;
+}
+
+#right{
+  position:relative;
+  right: -300px;
+}
+#floor {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+
+}
+#floor > img{
+  border: 1px solid rgba(0, 0, 0, 0.8);
+
+
+}
+
+#left{
+  position: relative;
+  right: -800px;
+  font-family: 'Arial Rounded MT Bold', sans-serif;
+  color: #254082;
+}
+#hello:hover{
+  font-weight: bold;
+
+}

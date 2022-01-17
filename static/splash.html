@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Delft memory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/game.css" />
+  </head>
+  <body>
+    <main>
+      <img src="./brain.png" width="550" height="333">
+      <h1>Delft Memory</h1>
+      <div id="background"></div>
+
+      <form action="/play" class="play">
+          <button id="playbutton">play</button>
+      </form>
+
+      <section id="explanation" class="explanation">
+          <p>A memory game with delft twist!\br</p>
+          <ol>
+              <li>Press play to connect with a random player.</li>
+              <li>Try to find the matching pairs.</li>
+              <li>Player with the highest score wins.</li>
+          </ol>
+
+      </section>
+
+      <section class= "stats">
+
+      <div id="gamesinitialized" class="top">
+          <h3>top score:</h3>
+          <p id="topscore"></p>
+      </div>
+
+      <div id="lowestscore" class="lowest">
+        <h3>lowest score:</h3>
+        <p id="lowscore"></p>
+      </div>
+
+      <div id="gamesplayed" class="played">
+        <h3>games played:</h3>
+        <p id="gamesplayed"></p>
+      </div>
+      </section>
+
+
+    </main>
+
+  </body>
+</html>
