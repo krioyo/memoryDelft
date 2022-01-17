@@ -2,6 +2,6 @@
 A web memory game implementation
 
 navigate to memoryDelft folder and then put in the following commands:
--npm install
--npm install ejs
--npm start
+-npm install\n
+-npm install ejs\n
+-npm start\n
