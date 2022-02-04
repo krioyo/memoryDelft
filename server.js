@@ -10,7 +10,7 @@ const indexRouter = require("./routes/index");
 const gameStatus = require("./statTracker");    ///tracks stats javascript
 const app = express();
 
-
+#comment
 
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/static"));
